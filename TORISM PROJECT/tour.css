@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width:vw;
+    height: 1000px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.table1{
+    width: 1000px;
+    height: 800px;
+    border-radius: 30px;
+     /* background-color: whitesmoke; */
+     background-image: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+}
+a{
+    text-decoration: none;
+}
+.intro{
+    width: 850px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     border-radius: 30px;
+     background-image: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 120px;
+    display: flex;
+}
+.sagar{
+width: 350px;
+height: 200px;
+margin-top: 1cm;
+padding: 2mm;
+background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+border-radius: 10px;
+}
+.vickey{
+width: 350px;
+height: 200px;
+margin-top: 3cm;
+padding: 2mm;
+background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+border-radius: 10px;
+}
+.mayank{
+width: 350px;
+height: 200px;
+margin-top: 3cm;
+padding: 2mm;
+background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+border-radius: 10px;
+}
+.footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.head{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     text-shadow:3px 2px yellow,5px 4px purple;
+
+}
+ 
+body{
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+}
+ 

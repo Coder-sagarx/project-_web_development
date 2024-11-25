@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+ <div class="container">
+    <h2>currency convertor</h2>
+    <form >
+        <div class="ammount">
+            <p>enter ammount</p>
+            <input type="text" value="100">
+        </div>
+        <div class="dropdown">
+            <div class="from">
+                <p>from</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/BE/shiny/64.png" alt="img">
+                    <select name="from"  >
+                        <option value="usd">usd</option>
+                        <option value="inr">inr</option>
+                        <option value="eur">eur</option>
+                        <option value="aud">aud</option>
+                    </select>
+            </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>to</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/BE/shiny/64.png" alt="img">
+                    <select name="from"  >
+                        <option value="usd">usd</option>
+                        <option value="inr">inr</option>
+                        <option value="eur">eur</option>
+                        <option value="aud">aud</option>
+                    </select>
+            </div>
+            </div>
+        </div>
+        <div class="msg">1USD =432889inr</div>
+        <button class="btn">get exchange rate</button>
+    </form>
+ </div>
+    
+ <script src="java.js"></script>
+ <script src="code.js"></script>
+</body>
+</html>
